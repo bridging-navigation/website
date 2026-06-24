@@ -1,9 +1,2 @@
 exclude:
   - README.md
-  - static/js/fontawesome.all.min.js
-  - static/js/bulma-carousel.min.js
-  - static/js/bulma-slider.min.js
-  - static/css/bulma.min.css
-  - static/css/bulma.css.map.txt
-  - static/css/fontawesome.all.min.css
-  - static/images
