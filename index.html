@@ -45,7 +45,7 @@
       <div class="navbar-start" style="flex-grow:1;justify-content:center;">
         <a class="navbar-item" href="#home">Home</a>
         <a class="navbar-item" href="#speakers">Speakers</a>
-        <!-- <a class="navbar-item" href="#panelists">Panelists</a> -->
+        <a class="navbar-item" href="#panelists">Panelists</a>
         <a class="navbar-item" href="#schedule">Schedule</a>
         <a class="navbar-item" href="#cfp">Call for Papers</a>
         <a class="navbar-item" href="#sponsors">Sponsors</a>
@@ -344,6 +344,49 @@
     </div>
   </section>
 
+  <section class="section" id="panelists">
+    <div class="container has-text-centered">
+      <h2 class="title is-3 has-text-centered">Panelists</h2>
+      <div class="columns is-centered">
+        <div class="column is-narrow">
+          <figure class="image panelist-photo">
+            <img src="./static/images/speaker/davidfan.png" alt="David Fan" class="speaker-crop" data-crop-x="50"
+              data-crop-y="50" data-zoom="1.0">
+          </figure>
+          <p><strong>David Fan</strong></p>
+          <p>Field AI</p>
+        </div>
+
+        <div class="column is-narrow">
+          <figure class="image panelist-photo">
+            <img src="./static/images/speaker/kalpana.jpeg" alt="Kalpana Seshadrinatha" class="speaker-crop"
+              data-crop-x="50" data-crop-y="50" data-zoom="1.0">
+          </figure>
+          <p><strong>Kalpana Seshadrinatha</strong></p>
+          <p>Skydio</p>
+        </div>
+
+        <div class="column is-narrow">
+          <figure class="image panelist-photo">
+            <img src="./static/images/speaker/wenshanwang.jpeg" alt="Wenshan Wang" class="speaker-crop" data-crop-x="50"
+              data-crop-y="50" data-zoom="1.0">
+          </figure>
+          <p><strong>Wenshan Wang</strong></p>
+          <p>Carnegie Mellon University</p>
+        </div>
+
+        <div class="column is-narrow">
+          <figure class="image panelist-photo">
+            <img src="./static/images/speaker/boleizhou.jpg" alt="Bolei Zhou" class="speaker-crop" data-crop-x="50"
+              data-crop-y="50" data-zoom="1.0">
+          </figure>
+          <p><strong>Bolei Zhou</strong></p>
+          <p>UCLA / Coco Robotics</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
 
 
   <!-- Schedule -->
@@ -370,6 +413,19 @@
     .schedule-table .schedule-title {
       font-style: italic;
       color: #444;
+    }
+
+    /* Panelist headshots: slightly larger, centered with text beneath */
+    .panelist-photo {
+      width: 168px;
+      height: 168px;
+      margin: 0 auto 0.6rem;
+    }
+
+    .panelist-photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
   </style>
   <section class="section" id="schedule">
@@ -456,7 +512,8 @@
           </tr>
           <tr class="has-background-light">
             <td class="schedule-time">4:30 – 5:15</td>
-            <td class="has-text-centered has-text-weight-semibold">Panel &middot; TBD</td>
+            <td class="has-text-centered has-text-weight-semibold">Panel &middot; David Fan, Kalpana Seshadrinatha,
+              Wenshan Wang, Bolei Zhou</td>
           </tr>
           <tr class="has-background-light">
             <td class="schedule-time">5:15 – 5:30</td>
